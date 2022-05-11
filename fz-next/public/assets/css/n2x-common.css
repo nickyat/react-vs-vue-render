@@ -1,0 +1,46 @@
+.n2x-h1 {
+  font-size: 17px;
+  font-weight: bold;
+  margin: 0 0 10px;
+  line-height: initial;
+}
+
+.n2x-h2 {
+  font-size: 14px;
+  font-weight: bold;
+  margin: 0 0 10px;
+  line-height: initial;
+}
+
+.n2x-h3 {
+  font-size: 12px;
+  font-weight: bold;
+  margin: 0;
+  line-height: initial;
+}
+
+.ui-widget-header {
+  border: 1px solid #aed0ea;
+  background: #deedf7 ;
+  color: #222222;
+  font-weight: bold;
+  padding: 5px;
+}
+
+.brand-select-tbl th {
+  background-color: #D8E4F0;
+  font-weight: bold;
+  height: 30px;
+}
+.brand-select-tbl {
+  background-color: #FFFFFF;
+  border: 1px solid #7F9DB9;
+  border-spacing: 1px;
+  margin: 0;
+}
+.brand-select-tbl tr {
+  background-color: #F4F4F2;
+}
+.brand-select-tbl tr td {
+  height: 22px;
+}

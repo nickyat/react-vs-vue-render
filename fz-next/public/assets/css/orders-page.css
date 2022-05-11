@@ -1,0 +1,195 @@
+.cOSLink {
+  text-decoration: dotted;
+  padding-bottom: 2px !important;
+  font-weight: normal; overflow: hidden; white-space: normal; height: 22px;
+}
+.cOSLink a{
+  text-decoration:underline;
+  color: green;
+}
+
+.wr {
+  background-position: 8px -57px;
+  padding-bottom: 2px !important;
+  padding-left: 2px !important;
+  padding-right: 2px !important;
+  padding-top: 2px !important;
+}
+
+.wr:hover {
+  background-color: #FFFFD6;
+}
+.iw-tooltip {
+  -moz-border-bottom-colors: none;
+  -moz-border-image: none;
+  -moz-border-left-colors: none;
+  -moz-border-right-colors: none;
+  -moz-border-top-colors: none;
+  background-color: #FFFFFF;
+  border-bottom-color: #AAAAAA;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-left-color-ltr-source: physical;
+  border-left-color-rtl-source: physical;
+  border-left-color-value: #AAAAAA;
+  border-left-style-ltr-source: physical;
+  border-left-style-rtl-source: physical;
+  border-left-style-value: solid;
+  border-left-width-ltr-source: physical;
+  border-left-width-rtl-source: physical;
+  border-left-width-value: 1px;
+  border-right-color-ltr-source: physical;
+  border-right-color-rtl-source: physical;
+  border-right-color-value: #AAAAAA;
+  border-right-style-ltr-source: physical;
+  border-right-style-rtl-source: physical;
+  border-right-style-value: solid;
+  border-right-width-ltr-source: physical;
+  border-right-width-rtl-source: physical;
+  border-right-width-value: 1px;
+  border-top-color: #AAAAAA;
+  border-top-style: solid;
+  border-top-width: 1px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.4);
+  color: #000000;
+  display: block;
+  font-size: 14px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  position: fixed;
+  width: 500px;
+  z-index: 1000;
+}
+
+
+.ui-jqgrid tr.jqgrow td {
+  font-weight: normal; overflow: hidden; white-space: normal; height: 22px;padding: 0 2px 0 2px;border-bottom-width: 1px; border-bottom-color: inherit; border-bottom-style: solid;
+}
+
+
+.mb_left{
+
+  float: left;
+
+}
+.mb_right{
+  float: right;
+
+}
+
+
+.cCostDownMark {
+  color: green;
+  display: inline;
+  font-size: 10px;
+  font-weight: bold;
+  height: 14px;
+  margin-left: 1px;
+  margin-top: -6px;
+  font-family: small-caption;
+  position: absolute;
+}
+
+.cCostUpMark {
+  color: red;
+  font-family: small-caption;
+  display: inline;
+  font-size: 10px;
+  font-weight: bold;
+  height: 14px;
+  margin-left: 1px;
+  margin-top: -6px;
+  position: absolute;
+}
+
+.dt_range{
+  float: left;
+  margin-left: 10px;
+  display: none;
+}
+.cOrdersHeader{
+  background-color: #EEEEEE;
+  display: block;
+  height: 25px;
+  padding-top: 5px;
+}
+.cClientFilter{
+  float: left;
+  display: block;
+  width: 300px;
+}
+.cDateRange{
+  float: left;
+  display: block;
+  line-height: 25px;
+  margin-left: 10px;
+
+}
+.cDateRange a{
+  border-bottom: 1px dotted #0260C0;
+}
+.cViewedFilter{
+  display: block;
+  float: right;
+
+}
+.cUKFilter{
+  display: block;
+  float: left;
+
+}
+.cStateFilter{
+
+  float: left;
+
+}
+.cHideCost{
+  display: block;
+  float: right;
+  margin-left: 10px;
+}
+
+.real-storage-name {
+  color: red;
+}
+
+.orders-pn-link {
+  color: black;
+  text-decoration: none;
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+}
+
+.orders-pn-link img {
+  display: none;
+}
+
+tr:hover .orders-pn-link img {
+  display: block;
+  width: 16px;
+  height: 16px;
+}
+
+.copy-to-clipboard {
+  cursor: pointer;
+}
+
+#effect {
+  display: none;
+  position: fixed;
+  width: 500px;
+  top: 50%;
+  margin-top: -50px;
+  left: 50%;
+  margin-left: -250px;
+  text-align: center;
+}
+
+div#effect-info-container {
+  padding: 5px;
+  text-align: center;
+  font-size: 14px;
+}

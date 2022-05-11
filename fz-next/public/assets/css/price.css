@@ -1,0 +1,135 @@
+@import "..ery.fancybox.css";
+@import "..t.min.css";
+
+#PriceHolder {
+  line-height: 25px;
+  background-color: #FFFFFF;
+  border: 1px solid #7F9DB9;
+  border-spacing: 1px;
+  margin: 0;
+}
+#PriceHolder thead {
+  line-height: 25px;
+  border-spacing: 1px;
+}
+#PriceHolder thead tr {
+  background-color: #F4F4F2;
+  line-height: 25px;
+  border-spacing: 1px;
+}
+#PriceHolder tr.supplier-highlight {
+  background-color: #f3e0e0;
+}
+#PriceHolder th {
+  font-weight: bold;
+  height: 30px;
+  line-height: 25px;
+  border-spacing: 1px;
+}
+.tbl tr {
+  background-color: #F4F4F2;
+}
+.tbl tr.price-show-more {
+  background-color: cornsilk;
+}
+.tabletitle {
+  background-color: #E5E5E3;
+  color: #003566;
+  font-weight: bold;
+}
+#art-label .CCostWaitLink {
+  color: #003566;
+  font-weight: bold;
+  line-height: 25px;
+  border-spacing: 1px;
+}
+
+.tbl {
+  background-color: #FFFFFF;
+  border: 1px solid #7F9DB9;
+  border-spacing: 1px;
+  margin: 0;
+}
+
+.tbl.best-price tr, .tbl.best-price tr td {
+  width: 100%;
+}
+
+.tbl tr {
+  background-color: #F4F4F2;
+}
+.tbl tr td {
+  height: 22px;
+}
+.tbl tr:hover {
+  background-color: #D8E4F0;
+}
+.tbl th {
+  background-color: #D8E4F0;
+  font-weight: bold;
+  height: 30px;
+}
+.tbl tr td.pn-col {
+  text-align: left;
+  word-spacing: 5px;
+}
+.tbl tr td a:hover {
+  cursor: pointer;
+  text-decoration: none;
+}
+.tbl tr td img.search-pn-btn {
+  width: 16px;
+  height: 16px;
+}
+.tbl tr td img.product-frame-img {
+  width: 20px;
+  height: 20px;
+  /*float: right;*/
+}
+.tbl tr td img.cross-feedback-img {
+  width: 20px;
+  height: 20px;
+  float: right;
+}
+
+.ancLinks {
+  border-bottom: 1px dotted Black;
+  text-decoration: none;
+}
+
+.price-cost-nowrap {
+  white-space: nowrap;
+}
+
+.best-price-cost {
+  width: 50px;
+}
+
+.price-rating-bg {
+  display: block;
+  width: 65px;
+  height: 13px;
+  background: url(/bundles/legacyinterop/images/star-rating-sprite.png) 0 0;
+}
+.best-price p {
+  margin: 0;
+}
+
+.price-rating {
+  display: block;
+  height: 13px;
+  background: url(/bundles/legacyinterop/images/star-rating-sprite.png) 0 -13px;
+}
+.add_cella {
+  float: right;
+}
+.cBasketCount > input[type="number"] {
+  width: 35px;
+  height: 15px;
+  text-align: left;
+  padding-left: 3px;
+}
+
+#PriceHolder tr.supplier-highlight {
+  background-color: #f3e0e0;
+}
