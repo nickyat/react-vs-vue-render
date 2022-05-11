@@ -14,7 +14,10 @@ Time per request:       9.692 [ms] (mean)
 Time per request:       9.692 [ms] (mean, across all concurrent requests)
 Transfer rate:          54637.54 [Kbytes/sec] received
 
+
 next: ab -n 1000 http://localhost:3000/test/test
+
+
 Document Path:          /test/test
 Document Length:        621955 bytes
 
@@ -28,3 +31,20 @@ Requests per second:    289.37 [#/sec] (mean)
 Time per request:       3.456 [ms] (mean)
 Time per request:       3.456 [ms] (mean, across all concurrent requests)
 Transfer rate:          175819.97 [Kbytes/sec] received
+
+
+nuxt: ab -n 1000 http://localhost:3000/test/test
+
+Document Path:          /test
+Document Length:        547136 bytes
+
+Concurrency Level:      1
+Time taken for tests:   8.194 seconds
+Complete requests:      1000
+Failed requests:        0
+Total transferred:      547362000 bytes
+HTML transferred:       547136000 bytes
+Requests per second:    122.04 [#/sec] (mean)
+Time per request:       8.194 [ms] (mean)
+Time per request:       8.194 [ms] (mean, across all concurrent requests)
+Transfer rate:          65236.87 [Kbytes/sec] received
